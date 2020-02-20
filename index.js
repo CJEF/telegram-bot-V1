@@ -16,16 +16,24 @@ bot.on("message", msg => {
 
   switch (msg.text) {
     case kb.home.excellent:
-      bot.sendMessage(chatId, "Пікіріңізге раxмет, біз әрқашан ізденістеміз!");
+      bot.sendPhoto(msg.chat.id, "./img/5.jfif", {
+        caption: "Пікіріңізге раxмет, біз әрқашан ізденістеміз!"
+      });
       break;
     case kb.home.good:
-      bot.sendMessage(chatId, "Керемет, сізге ұнағаңына қуаныштымыз!");
+      bot.sendPhoto(msg.chat.id, "./img/4.jfif", {
+        caption: "Керемет, сізге ұнағаныңызға қуаныштымыз!"
+      });
       break;
     case kb.home.badly:
-      bot.sendMessage(chatId, "Жақсы, әлі де толықтырамыз!");
+      bot.sendPhoto(msg.chat.id, "./img/3.jfif", {
+        caption: "Жақсы, әлі де толықтырамыз!"
+      });
       break;
     case kb.home.verybad:
-      bot.sendMessage(chatId, "Түсінікті, қателікпен жұмыс жасаймыз!");
+      bot.sendPhoto(msg.chat.id, "./img/2.jfif", {
+        caption: "Түсінікті, қателікпен жұмыс жасаймыз!"
+      });
       break;
     /* case kb.back:
       bot.sendMessage(chatId, "Что хотите посмотреть?", {
