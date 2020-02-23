@@ -1,11 +1,12 @@
 const kb = require("./keyboard-buttons");
 
 module.exports = {
-  home: [
-    [kb.home.excellent],
-    [kb.home.good],
-    [kb.home.badly],
-    [kb.home.verybad]
-  ]/* ,
-  films: [[kb.film.random], [kb.film.action, kb.film.comedy], [kb.back]] */
+  home: [[kb.home.victorina], [kb.home.grades]],
+  grades: [
+    [kb.grade.excellent],
+    [kb.grade.good],
+    [kb.grade.badly],
+    [kb.grade.verybad],
+    [kb.back]
+  ]
 };
