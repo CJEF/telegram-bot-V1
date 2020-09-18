@@ -1,6 +1,6 @@
 const TelegramBot = require("node-telegram-bot-api");
 /* const debug = require("./helpers"); */
-const TOKEN = "1098714365:AAFMgCzuoyEvGtYKPkSTidZIV21SPv9PLFE";
+const TOKEN = "Your Token";
 const kb = require("./keyboard-buttons");
 const keyboard = require("./keyboard");
 const helper = require("./helper");
